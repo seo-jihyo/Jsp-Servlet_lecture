@@ -1,0 +1,5 @@
+package edu.kosa;
+
+public class LoginServlet {
+
+}
