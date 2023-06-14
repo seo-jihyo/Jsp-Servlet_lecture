@@ -12,7 +12,7 @@
 	<!-- 해당 파일로 이동했다가 돌아옴 -->
 	<jsp:include page="/module/SubInclude.jsp" />
 	<% int num = 200; %>    <!-- 같은 변수 선언되어 있는 것으로 확인 가능 -->
-	<h3> include File Date</h3>
+	<h3> include File Date</h3>                                                 
 	SubInclude file data : <%= num %><br>
 	<% num = 900; %>
 	Change Data : <%= num %> 

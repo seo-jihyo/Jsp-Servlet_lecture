@@ -1,1 +1,5 @@
-memo입니당
+memo.txt
+그냥 파일 썼습니다.
+KOSA
+KBS
+SBS

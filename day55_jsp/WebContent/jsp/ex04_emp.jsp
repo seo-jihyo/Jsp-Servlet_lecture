@@ -8,6 +8,7 @@
 <body>
 
 <%!
+Emp e = new Emp(); //객체 생성
 	public String message(){
 	return "Daebo th2 파이팅";
 }
