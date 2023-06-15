@@ -16,6 +16,7 @@ Name 파라미터 List <p>
 <%	} //end for %><hr>
 
 <%
+//http://localhost:8080/day55_jsp/builtin_Object/ex15_subparamMain.jsp?Type=B&userid=jiji&pwd=pwpwpw&Type=A&userid=yuna&pwd=799
 	String type = request.getParameter("Type");
 		
 		if(type.equals("A")){
