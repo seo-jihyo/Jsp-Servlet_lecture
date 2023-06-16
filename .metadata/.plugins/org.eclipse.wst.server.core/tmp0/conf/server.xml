@@ -160,7 +160,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\HR-System" path="/HR-System" reloadable="true" source="org.eclipse.jst.jee.server:HR-System"/><Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Model2-day1" path="/Model2-day1" reloadable="true" source="org.eclipse.jst.jee.server:Model2-day1"/></Host>
+      <Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Model2-day1" path="/Model2-day1" reloadable="true" source="org.eclipse.jst.jee.server:Model2-day1"/><Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\day58_jdbc" path="/day58_jdbc" reloadable="true" source="org.eclipse.jst.jee.server:day58_jdbc"/></Host>
     </Engine>
   </Service>
 </Server>
