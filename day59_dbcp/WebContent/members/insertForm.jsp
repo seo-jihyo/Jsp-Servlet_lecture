@@ -1,3 +1,4 @@
+<%@page import="edu.kosa.members.MemberDAO"%>
 <%@ page contentType="text/html; charset=utf-8"%>
 <%@ include file="../view/color.jsp"%>
 <html>
@@ -53,7 +54,11 @@
 
 
 <body bgcolor="<%=bodyback_c%>">
-
+<%-- <%
+	MemberDAO dao = MemberDAO.getInstance();
+	dao.getConnection();
+//	out.print("connection success <br>");
+%> --%>
 <form method="post" action="insertPro.jsp" name="userinput" onSubmit="return checkIt()">
   <table width="600" border="1" cellspacing="0" cellpadding="3" align="center" >
     <tr> 
