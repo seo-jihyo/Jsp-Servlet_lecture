@@ -27,6 +27,7 @@
 		<item key="LimitValue" value="10"/>
 		<item key="SkipNull" value="false"/>
 		<item key="ToStringTemplateSelected" value="0"/>
+		<item key="InsertPosition.v2" value="2"/>
 	</section>
 	<section name="DialogBounds_OverrideMethodDialog">
 		<item key="DIALOG_X_ORIGIN" value="882"/>
@@ -54,7 +55,7 @@
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item key="pageIndex" value="3"/>
+		<item key="pageIndex" value="2"/>
 	</section>
 	<section name="NewPackageWizardPage">
 		<item key="create_package_info_java" value="false"/>
@@ -68,5 +69,8 @@
 		<item key="updateTextualMatches" value="false"/>
 		<item key="updateQualifiedNames" value="false"/>
 		<item key="patterns" value="*"/>
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item key="index" value="3"/>
 	</section>
 </section>

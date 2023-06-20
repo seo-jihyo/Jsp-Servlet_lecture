@@ -35,7 +35,6 @@
 </form>
 <%   }else { %>
 
-
 <table width="270" border="0" cellspacing="0" cellpadding="5">
  		<td align="center">
  			<p> 입력하신<%= gname %>는 등록이 가능합니다.</p>

@@ -1,7 +1,0 @@
-/**
- * login 유효성 검사
- */
- 
-var id = document.getElementById('');
-var pw = document.getElementById('');
-var loginBtn = document.getElementById

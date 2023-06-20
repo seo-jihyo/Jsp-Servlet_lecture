@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@page import="java.sql.Timestamp" %>
 <%@page import="edu.kosa.members.MemberDAO" %>
-
+<% request.setCharacterEncoding("utf-8");%>
 <jsp:useBean id="vo" class="edu.kosa.members.MemberVO"/>
 <jsp:setProperty property="*" name="vo"/><!-- *: 전체 세팅 / id값이 name -->
 
