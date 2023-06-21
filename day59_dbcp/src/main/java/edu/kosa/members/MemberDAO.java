@@ -140,35 +140,37 @@ public class MemberDAO {  // Controller
 		
 		CloseHelper.close(pstmt); CloseHelper.close(conn);
 	}
-	
-	//selectAll()
-	public ArrayList<MemberVO> selectAll()throws Exception{
-	StringBuffer sb = new StringBuffer();
-	sb.append("select id, name, jumin1, email, blog, ");
-	sb.append("reg_date from members order by name desc;");
-	
-	Connection conn = getConnection();
-	PreparedStatement pstmt = conn.prepareStatement(sb.toString());
-	ResultSet rs = pstmt.executeQuery();
-	
-	MemberVO vo = null;
-	ArrayList<MemberVO> list = new ArrayList<>();
-	
-	while(rs.next()) {
-		vo = new MemberVO();
-		vo.setId(rs.getString("id"));
-		vo.setName(rs.getString("name"));
-		vo.setJumin1(rs.getString("jumin1"));
-		vo.setEmail(rs.getString("email"));
-		vo.setBlog(rs.getString("blog"));
-		vo.setReg_date(rs.getTimestamp("reg_date"));
-		
-		list.add(vo);
-	}
-	CloseHelper.close(rs); CloseHelper.close(pstmt);
+	// selectAll() - 회원 리스트 보기
+		public ArrayList<MemberVO> selectAll() throws Exception {
+			StringBuffer sb = new StringBuffer();
+			sb.append("SELECT ID, NAME, JUMIN1, EMAIL, BLOG, ");
+			sb.append("REG_DATE FROM MEMBERS  ORDER BY NAME DESC ");
 
-	return list;		
-	}
+			Connection conn = getConnection();
+			PreparedStatement pstmt = conn.prepareStatement(sb.toString());
+			ResultSet rs = pstmt.executeQuery();
+
+			MemberVO vo = null;
+			ArrayList<MemberVO> list = new ArrayList<>();
+
+			while (rs.next()) {
+				vo = new MemberVO();
+				vo.setId(rs.getString("id"));
+				vo.setName(rs.getString("name"));
+				vo.setJumin1(rs.getString("jumin1"));
+				vo.setEmail(rs.getString("email"));
+				vo.setBlog(rs.getString("blog"));
+				vo.setReg_date(rs.getTimestamp("reg_date"));
+
+				list.add(vo);
+			} // while end
+			CloseHelper.close(rs);
+			CloseHelper.close(pstmt);
+			return list;
+		} // selectAll() end
+		
+		
+		
 	// delete(id, pwd) - delete 처리(회원탈퇴) 메소드
 		public int delete(String id, String pwd) throws Exception {
 			String sql = "SELECT PASSWD FROM MEMBERS WHERE ID = ?";
@@ -191,11 +193,13 @@ public class MemberDAO {  // Controller
 
 					result = 1; // 회원 탈퇴 성공
 				} else {
-					result = 0; // 비번 틀림....
+					result = 0; // 비번 틀림
 				}
 			} // out if end
 
-			CloseHelper.close(rs);		CloseHelper.close(pstmt);		CloseHelper.close(conn);
+			CloseHelper.close(rs);		
+			CloseHelper.close(pstmt);		
+			CloseHelper.close(conn);
 
 			return result;
 		}

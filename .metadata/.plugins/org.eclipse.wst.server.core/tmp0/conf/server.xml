@@ -160,9 +160,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\BeatPhobia" path="/kh_project" reloadable="true" source="org.eclipse.jst.jee.server:BeatPhobia">
-	<Resource auth="Container" dirverClassName="oracle.jdbc.driver.OracleDriver" maxActive="500" maxIdle="100" name="jdbc/OracleDB" password="tiger" poolPreparedStatements="true" testOnBorron="false" type="javax.sql.DataSource" url="jdbc:oracle:thin:@127.0.0.1:1521:orcl" username="scott" validationQuery="select 1 from dual"/>
-</Context></Host>
+      <Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\day60_jstl_el" path="/day60_jstl_el" reloadable="true" source="org.eclipse.jst.jee.server:day60_jstl_el"/><Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Model2-day1" path="/Model2-day1" reloadable="true" source="org.eclipse.jst.jee.server:Model2-day1"/></Host>
     </Engine>
   </Service>
 </Server>

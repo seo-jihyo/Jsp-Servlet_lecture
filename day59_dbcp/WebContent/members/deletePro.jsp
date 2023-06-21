@@ -32,7 +32,7 @@
 			
 			<tr bgcolor="<%= value_c %>">
 				<td align="center">
-					<p>탈퇴</p>
+					<p>탈퇴 완료</p>
 					<meta http-equiv="Refresh" content="5; url=main.jsp" >
 				</td>
 			</tr>
