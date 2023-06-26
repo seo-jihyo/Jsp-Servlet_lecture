@@ -23,7 +23,7 @@ web.do?cmd=login
 web.do?cmd=loginok
 
 Url 방식
-주소가 고정되면 안되요
+주소가 고정되면 안됨
 @WebServlet("*.do")  // a.do , b.do
 *.do >> login.do
 *.do >> loginok.do
@@ -66,12 +66,21 @@ public class FrontRegisterController extends HttpServlet {
     		forward = new ActionForward();
     		forward.setRedirect(false);
     		forward.setPath("/WEB-INF/views/login/login.jsp");
+    	
+    	}else if(urlcommand.equals("/logout.do")) { //UI
+    		forward = new ActionForward();
+    		forward.setRedirect(false);
+    		forward.setPath("/WEB-INF/views/login/logout.jsp");
 
     	}else if(urlcommand.equals("/loginok.do")) { //UI + 로직
     		action = new LoginOkServiceAction(); //
     		forward = action.execute(request, response); //request 클라이언트가 요청한 페이지당 1개씩 만들어지는 request객체
     	}
-    
+    	else if(urlcommand.equals("/registerList.do")) { //UI
+    		forward = new ActionForward();
+    		forward.setRedirect(false);
+    		forward.setPath("/WEB-INF/views/register/registerList.jsp");
+    	}
     	if(forward != null) {
     		if(forward.isRedirect()) { //true 페이지 재 요청 (location.href="페이지"
     			response.sendRedirect(forward.getPath());

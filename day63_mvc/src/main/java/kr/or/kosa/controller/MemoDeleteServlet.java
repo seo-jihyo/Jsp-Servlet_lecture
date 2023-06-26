@@ -25,20 +25,7 @@ public class MemoDeleteServlet extends HttpServlet {
 		
 		MemoDao dao = new MemoDao();
 		String id = request.getParameter("id");
-		
-/*		try {
-			dao.memoDelete(id);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		try {
-			request.setAttribute("dao", dao.memoDelete(id));
-			System.out.println("id: " + id);
-			RequestDispatcher dispatcher = request.getRequestDispatcher("/memoDelete");
-			dispatcher.forward(request, response);
-			
-	*/	
+	
 		   try {
 		         int result = dao.memoDelete(id);
 		         if(result > 0) {

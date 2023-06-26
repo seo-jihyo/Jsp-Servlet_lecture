@@ -74,4 +74,6 @@ public class RegisterDao {
 		}
 		return dto;
 	}
+	//selectAll
+	
 }

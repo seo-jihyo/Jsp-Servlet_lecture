@@ -24,8 +24,7 @@ public class MemoListServlet extends HttpServlet {
 		MemoDao  dao = new MemoDao();
 		
 		String search = request.getParameter("search");
-		
-		
+			
 		try {
 			List<MemoDto> list = new ArrayList<>();
 				if (search != "") {
@@ -43,8 +42,7 @@ public class MemoListServlet extends HttpServlet {
 					
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
-		
+		}		
 	}
 
 	@Override

@@ -2,5 +2,6 @@
 <typeInfoHistroy>
     <typeInfo handle="=day62_mvc/C:\/daebo_th2\/program_util\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416\/jre\/lib\/jrt-fs.jar`java.smartcardio=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/&lt;javax.smartcardio(CommandAPDU.class[CommandAPDU" modifiers="49" timestamp="1652591962000"/>
     <typeInfo handle="=day62_mvc/C:\/daebo_th2\/7_Jsp_Servlet\/workspace\/day62_mvc\/WebContent\/WEB-INF\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1686900176530"/>
-    <typeInfo handle="=day62_mvc_board2/src\/main\/java&lt;com.kosa.boardAction{CommandAction.java[CommandAction" modifiers="513" timestamp="1687415490389"/>
+    <typeInfo handle="=day62_mvc_board2/src\/main\/java&lt;com.kosa.boardAction{CommandAction.java[CommandAction" modifiers="513" timestamp="1687420781160"/>
+    <typeInfo handle="=WebServlet_9_Member_Model2_Mvc_Url_Interface/src\/main\/java&lt;kr.or.kosa.action{Action.java[Action" modifiers="513" timestamp="1667787732000"/>
 </typeInfoHistroy>

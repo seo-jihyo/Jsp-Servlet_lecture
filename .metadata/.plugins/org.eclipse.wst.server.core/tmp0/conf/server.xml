@@ -160,14 +160,72 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\day62_mvc_board2" path="/day62_mvc_board2" reloadable="true" source="org.eclipse.jst.jee.server:day62_mvc_board2">
-	<WatchedResource>WEB-INF/tomcat-web.xml</WatchedResource>
-	
-	<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxActive="20" maxIdle="10" maxWait="-1" name="jdbc:BoardDB" password="oracle" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:orcl" username="jihyo"/> 		 
-</Context><Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\day63_mvc" path="/day63_mvc" reloadable="true" source="org.eclipse.jst.jee.server:day63_mvc">
-	<WatchedResource>WEB-INF/web.xml</WatchedResource>
-
- 	<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxActive="20" maxIdle="20" maxTotal="20" maxWait="-1" name="jdbc/MemoDB" password="oracle" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:orcl" username="jihyo"/> 
+      <Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\WebServlet_7_Member_Model2_Mvc_Command" path="/WebServlet_7_Command" reloadable="true" source="org.eclipse.jst.jee.server:WebServlet_7_Member_Model2_Mvc_Command">
+<!-- 
+Resource  커넥션풀을 만드는 기본 설정 (어떤DB , 계정을 가지고 접속 설정)
+<Resource
+auth="Container"  
+driverClassName="oracle.jdbc.driver.OracleDriver"
+maxTotal="20"  //커넥션 객체의 최대 갯수  (default 8)
+maxIdle="20"   //사용하지  않는 idle(대기)상태의 최대 수 
+maxActive="20"  //DataSource로부터 꺼낼 수 있는 커넥션 최대 개수 기본값 : 8개
+name="jdbc/myoracle"  // 사용자가 지정하는 임의의 이름 
+type="javax.sql.DataSource" 
+url="jdbc:oracle:thin:@127.0.0.1:1521:orcl"  //원격접속의 경우 반드시 @로 설정한다. 
+username="scott"   //연결한 db 사용자 이름
+password="tiger"   // 연결한 db의 비밀번호 
+/>
+ password="1004" 
+ username="bituser" 
+ 
+ url="jdbc:oracle:thin:@192.168.0.218:1521:XE"
+ name="jdbc/oracle"
+ -->
+	<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxActive="20" maxIdle="20" maxTotal="20" maxWait="-1" name="jdbc/oracle" password="oracle" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:orcl" username="jihyo"/>
+</Context><Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\WebServlet_8_Member_Model2_Mvc_Url" path="/WebServlet_8_Url" reloadable="true" source="org.eclipse.jst.jee.server:WebServlet_8_Member_Model2_Mvc_Url">
+<!-- 
+Resource  커넥션풀을 만드는 기본 설정 (어떤DB , 계정을 가지고 접속 설정)
+<Resource
+auth="Container"  
+driverClassName="oracle.jdbc.driver.OracleDriver"
+maxTotal="20"  //커넥션 객체의 최대 갯수  (default 8)
+maxIdle="20"   //사용하지  않는 idle(대기)상태의 최대 수 
+maxActive="20"  //DataSource로부터 꺼낼 수 있는 커넥션 최대 개수 기본값 : 8개
+name="jdbc/myoracle"  // 사용자가 지정하는 임의의 이름 
+type="javax.sql.DataSource" 
+url="jdbc:oracle:thin:@127.0.0.1:1521:orcl"  //원격접속의 경우 반드시 @로 설정한다. 
+username="scott"   //연결한 db 사용자 이름
+password="tiger"   // 연결한 db의 비밀번호 
+/>
+ password="1004" 
+ username="bituser" 
+ 
+ url="jdbc:oracle:thin:@192.168.0.218:1521:XE"
+ name="jdbc/oracle"
+ -->
+	<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxActive="20" maxIdle="20" maxTotal="20" maxWait="-1" name="jdbc/oracle" password="oracle" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:orcl" username="jihyo"/>
+</Context><Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\WebServlet_9_Member_Model2_Mvc_Url_Interface" path="/WebServlet_9_Interface" reloadable="true" source="org.eclipse.jst.jee.server:WebServlet_9_Member_Model2_Mvc_Url_Interface">
+<!-- 
+Resource  커넥션풀을 만드는 기본 설정 (어떤DB , 계정을 가지고 접속 설정)
+<Resource
+auth="Container"  
+driverClassName="oracle.jdbc.driver.OracleDriver"
+maxTotal="20"  //커넥션 객체의 최대 갯수  (default 8)
+maxIdle="20"   //사용하지  않는 idle(대기)상태의 최대 수 
+maxActive="20"  //DataSource로부터 꺼낼 수 있는 커넥션 최대 개수 기본값 : 8개
+name="jdbc/myoracle"  // 사용자가 지정하는 임의의 이름 
+type="javax.sql.DataSource" 
+url="jdbc:oracle:thin:@127.0.0.1:1521:orcl"  //원격접속의 경우 반드시 @로 설정한다. 
+username="scott"   //연결한 db 사용자 이름
+password="tiger"   // 연결한 db의 비밀번호 
+/>
+ password="1004" 
+ username="bituser" 
+ 
+ url="jdbc:oracle:thin:@192.168.0.218:1521:XE"
+ name="jdbc/oracle"
+ -->
+	<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxActive="20" maxIdle="20" maxTotal="20" maxWait="-1" name="jdbc/oracle" password="oracle" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:orcl" username="jihyo"/>
 </Context></Host>
     </Engine>
   </Service>

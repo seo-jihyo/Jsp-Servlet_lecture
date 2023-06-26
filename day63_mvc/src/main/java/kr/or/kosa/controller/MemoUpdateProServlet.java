@@ -31,11 +31,8 @@ public class MemoUpdateProServlet extends HttpServlet {
 
 		try {
 			dao.memoUpdate(new MemoDto(id, email, content));
-
-			int su = dao.memoUpdate(new MemoDto(id, email, content));
-			
-			System.out.println("su: " + su);
-			
+			int su = dao.memoUpdate(new MemoDto(id, email, content));			
+			System.out.println("su: " + su);			
 			if (su > 0) {
 
 				out.print("<script>");
@@ -47,12 +44,10 @@ public class MemoUpdateProServlet extends HttpServlet {
 				out.print("alert('수정 실패' );");
 				out.print("location.href='memo.html';");
 				out.print("</script>");
-
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)

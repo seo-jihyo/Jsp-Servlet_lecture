@@ -57,5 +57,4 @@ public class MemoServlet extends HttpServlet {
 			throws ServletException, IOException {
 		doGet(request, response);
 	}
-
 }

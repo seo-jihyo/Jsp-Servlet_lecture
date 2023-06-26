@@ -7,8 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h3>회원가입을 축하합니다^^</h3>
-	<a href="index.html">MAIN</a>
-	<h3>${requestScope.data}</h3>
+      <h3>Main</h3>
+      <!-- command 방식 -->
+      <!-- <a href="resister.do?cmd=register">회원가입</a> -->
+      <!-- url 방식 -->
+      <a href="register.do">회원가입</a> &nbsp;&nbsp;
+      <a href="login.do">로그인하기</a>
 </body>
 </html>

@@ -28,15 +28,11 @@ public class MemoUpdateServlet extends HttpServlet {
 			request.setAttribute("dao", dao.selectByID(id));
 			RequestDispatcher dispatcher = request.getRequestDispatcher("/memoUpdate.jsp");
 			dispatcher.forward(request, response);
-			
-			
+						
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
-		
+		}		
 	}
-
-
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException {
 		doGet(request, response);

@@ -15,6 +15,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\daebo_th2\7_Jsp_Servlet\workspace\WebServlet_9_Member_Model2_Mvc_Url_Interface"/>
+			<item value="C:\daebo_th2\7_Jsp_Servlet\workspace\WebServlet_8_Member_Model2_Mvc_Url"/>
+			<item value="C:\daebo_th2\7_Jsp_Servlet\workspace\WebServlet_7_Member_Model2_Mvc_Command"/>
 			<item value="C:\daebo_th2\7_Jsp_Servlet\workspace\BeatPhobia2"/>
 			<item value="C:\daebo_th2\7_Jsp_Servlet\workspace\BeatPhobia"/>
 			<item value="C:\daebo_th2\7_Jsp_Servlet\teamproject\HR-System"/>
@@ -49,5 +52,11 @@
 			<item key="DIALOG_Y_ORIGIN" value="449"/>
 			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 		</section>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_WIDTH" value="666"/>
+		<item key="DIALOG_HEIGHT" value="482"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>

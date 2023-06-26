@@ -12,7 +12,8 @@ import kr.or.kosa.dto.RegisterDto;
 public class LoginOkServiceAction implements Action {
 
 	@Override
-	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) {
+	public ActionForward execute(HttpServletRequest request, 
+			HttpServletResponse response) {
 
 		// 로직 처리 시작
 		int id = Integer.parseInt(request.getParameter("id"));
