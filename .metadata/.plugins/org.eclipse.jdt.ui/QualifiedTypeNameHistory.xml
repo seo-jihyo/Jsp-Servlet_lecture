@@ -29,7 +29,6 @@
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="ko.or.kosa.util.ConnectionHelper"/>
     <fullyQualifiedTypeName name="kr.or.kosa.dao.MemoDao"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="kr.or.kosa.dto.MemoDto"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -44,4 +43,10 @@
     <fullyQualifiedTypeName name="kr.or.kosa.utils.ConnectionHelper"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="kr.or.kosa.action.ActionForward"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="javax.media.jai.JAI"/>
+    <fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
+    <fullyQualifiedTypeName name="java.awt.Graphics2D"/>
+    <fullyQualifiedTypeName name="javax.imageio.ImageIO"/>
 </qualifiedTypeNameHistroy>

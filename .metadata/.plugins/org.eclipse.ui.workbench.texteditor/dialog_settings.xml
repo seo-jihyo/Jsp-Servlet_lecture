@@ -6,6 +6,7 @@
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="sql태그 예제"/>
 			<item value="king"/>
 			<item value="str"/>
 			<item value="br"/>
@@ -13,7 +14,6 @@
 			<item value="userinput"/>
 			<item value="id"/>
 			<item value="confirmid"/>
-			<item value="port"/>
 		</list>
 		<list key="replacehistory">
 		</list>
