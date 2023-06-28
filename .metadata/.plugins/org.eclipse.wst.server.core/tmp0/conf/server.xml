@@ -246,7 +246,7 @@ password="tiger"   // 연결한 db의 비밀번호
 	<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxActive="100" maxIdle="20" maxWait="-1" name="jdbc/oracle" password="oracle" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:orcl" username="jihyo"/>
 
 	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="100" maxIdle="20" maxWait="-1" name="jdbc/mysql" password="mysql" type="javax.sql.DataSource" url="jdbc:mysql://192.168.0.3:3306/mydb" username="jihyo"/>
-</Context></Host>
+</Context><Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\web12_ajax" path="/web12_ajax" reloadable="true" source="org.eclipse.jst.jee.server:web12_ajax"/><Context docBase="C:\daebo_th2\7_Jsp_Servlet\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\APIPrc" path="/APIPrc" reloadable="true" source="org.eclipse.jst.jee.server:APIPrc"/></Host>
     </Engine>
   </Service>
 </Server>
