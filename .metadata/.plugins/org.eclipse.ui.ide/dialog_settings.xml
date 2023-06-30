@@ -15,6 +15,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\daebo_th2\7_Jsp_Servlet\workspace\WebServlet_91_filter"/>
+			<item value="C:\daebo_th2\7_Jsp_Servlet\workspace\WebServlet_4_Emp_mvc_ajax"/>
+			<item value="C:\daebo_th2\7_Jsp_Servlet\workspace\web12_ajax"/>
 			<item value="C:\daebo_th2\7_Jsp_Servlet\workspace\WebServlet_92_Board_Model2_Mvc"/>
 			<item value="C:\daebo_th2\7_Jsp_Servlet\workspace\bbs2"/>
 			<item value="C:\daebo_th2\7_Jsp_Servlet\workspace\WebServlet_9_Member_Model2_Mvc_Url_Interface"/>

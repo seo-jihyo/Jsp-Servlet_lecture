@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc4fb625-23cf-4a5c-9d1a-352f5ac57d43" name="Changes" comment="" />
+    <list default="true" id="dc4fb625-23cf-4a5c-9d1a-352f5ac57d43" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeatPhobia" beforeDir="false" afterPath="$PROJECT_DIR$/BeatPhobia" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeatPhobia/build/classes/net/manager/action/NoticeModifyAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/BeatPhobia/build/classes/net/manager/action/NoticeModifyAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeatPhobia/src/main/java/net/manager/action/NoticeModifyAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/BeatPhobia/src/main/java/net/manager/action/NoticeModifyAction.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +25,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/daebo_th2/7_Jsp_Servlet/teamproject/HR-System",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
@@ -33,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686646666321</updated>
       <workItem from="1686646668218" duration="126000" />
+      <workItem from="1687856551525" duration="90000" />
     </task>
     <servers />
   </component>

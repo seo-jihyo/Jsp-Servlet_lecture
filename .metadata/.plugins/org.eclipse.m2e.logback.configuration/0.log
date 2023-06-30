@@ -1026,3 +1026,8 @@ org.eclipse.jface.text.BadLocationException: null
 2023-06-28 08:48:13,381 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\daebo_th2\7_Jsp_Servlet\teamproject\HR-System\src\main\resources
 2023-06-28 08:48:13,382 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-06-28 08:48:13,382 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\daebo_th2\7_Jsp_Servlet\teamproject\HR-System\src\test\resources
+2023-06-29 08:42:15,996 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-06-29 08:42:20,478 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-29 08:42:20,480 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\daebo_th2\7_Jsp_Servlet\teamproject\HR-System\src\main\resources
+2023-06-29 08:42:20,485 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-29 08:42:20,487 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\daebo_th2\7_Jsp_Servlet\teamproject\HR-System\src\test\resources
