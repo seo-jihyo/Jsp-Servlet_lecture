@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body, div {
+	margin: 0;
+	padding: 0;
+	
+	align-content: center;
+}
+
+table {
+	margin: auto;
+	width: 80%;
+	heignt: 20%;
+ 	align-content: center;
+	border-style: solid;
+	border-radius: 10px;
+	}
+	
+th {
+	text-align: right;
+	width: 200px
+}
+
+td {
+/* 	text-align: left; */
+
+}
+img{
+	width: 200px;
+}
+/* -----------------------------------------------------------------*/
+ 
